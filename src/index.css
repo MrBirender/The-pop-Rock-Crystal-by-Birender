@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(179% + 1.3px);
+  height: 500px;
+  transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1727792305 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1727792305 svg {
+  position: relative;
+  display: block;
+  width: calc(245% + 1.3px);
+  height: 500px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727792305 .shape-fill {
+  fill: #70d3fa;
+}
