@@ -74,22 +74,21 @@ export default function Product() {
 
         <div
           id="products"
-          className="mt-12 grid justify-center gap-5 sm:grid-cols-3 md:grid-cols-5"
+          className="mt-12 grid justify-center gap-5 sm:grid-cols-3 md:grid-cols-4"
         >
           <Card imgSrc={Product1} />
           <Card imgSrc={Product2} />
           <Card imgSrc={Product3} />
           <Card imgSrc={Product4} />
           <Card imgSrc={Product5} />
+          <Card imgSrc={Product2} />
+          <Card imgSrc={Product3} />
+          <Card imgSrc={Product4} />
         </div>
 
-        <div className="mt-4 flex sm:justify-between gap-5 items-center flex-col sm:flex-row ">
-        <Card imgSrc={Product2} />
-        <Card imgSrc={Product3} />
-        <Card imgSrc={Product4} />
-        </div>
-
-        <button className='mt-8 px-16 py-3 self-center hover:bg-[#70d3fa] border-2 border-[#70d3fa] rounded-3xl hover:text-white text-[#70d3fa] text-lg font-medium'>View All</button>
+        <button className="mt-8 px-16 py-3 self-center hover:bg-[#70d3fa] border-2 border-[#70d3fa] rounded-3xl hover:text-white text-[#70d3fa] text-lg font-medium">
+          View All
+        </button>
       </div>
     </div>
   );
